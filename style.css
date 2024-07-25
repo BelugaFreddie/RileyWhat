@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+.website-name{
+    color: aqua;
+    font-size: 60px;
+    padding-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li{
+    padding-left: 50px;
+    list-style-type: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.logo-container{
+    display: flex;
+    align-items:center ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
