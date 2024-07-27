@@ -10,21 +10,29 @@ nav{
 
 }
 .website-name{
-    color: aqua;
+    color: cornflowerblue;
     font-size: 60px;
     padding-left: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
 }
 
 .menu ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .menu ul li{
     padding-left: 50px;
     list-style-type: none;
+    padding-top: 40px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornflowerblue;
+    
+    
     
 }
 .menu ul li a{
@@ -35,11 +43,28 @@ nav{
     align-items:center ;
 }
 
+.about-me{
+    color: cornflowerblue;
+    padding-top: 100px;
+
+
+}
+
+.answering-your-rileybot-questions{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 28px;
+   padding-left: 19.8px;
+   color: cornflowerblue;
+
+}
+
+.riley-bot-image{
+    padding-top: 60px;
+    display: flex;
 
 
 
-
-
+}
 
 
 
