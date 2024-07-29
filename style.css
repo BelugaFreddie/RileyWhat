@@ -17,6 +17,9 @@ nav{
     padding-bottom: 10px;
     align-items: center;
 }
+.top-logo-section{
+    display: flex;
+}
 
 .menu ul{
     display: flex;
@@ -32,25 +35,20 @@ nav{
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: cornflowerblue;
-    
-    
-    
-    
-    
+  
 }
 .menu ul li a{
     text-decoration: none;
 }
-.logo-container{
-    display: flex;
-    align-items:center ;
-}
 
-.about-me{
+
+
+
+.about-me-heading{
     color: cornflowerblue;
-    padding-top: 100px;
-
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* change font size that fits the web page */
+    /* Add margin bottom to give some space between heading and paragraph */
 }
 
 .answering-your-rileybot-questions{
@@ -61,17 +59,36 @@ nav{
 
 }
 
+
+
+
+.about-me-container{
+
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    /* update background color as per your design */
+    background-color: rgb(157, 240, 240);
+    border-radius: 20px;
+    padding: 5% 0;
+}
+
+.about-me-left{
+    width: 50%;
+    margin: 0 auto;
+}
+.about-me-left p{
+    line-height: 30px;
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile-image{
+    margin: 0 auto;
+}
+
 .riley-bot-image{
     padding-top: 60px;
     display: flex;
-
-
-
 }
-
-
-.about-me-image{
-    align-items: center;
-    padding-left: 150px;
-}
-
