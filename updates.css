@@ -1,4 +1,11 @@
-.updates-page-name{
+.updates-page-heading{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    font-size: 25px;
+}
+
+.whats-new{
     color: cornflowerblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
