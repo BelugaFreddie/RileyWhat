@@ -1,0 +1,53 @@
+*{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.faq{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+.faq-answer{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    font-size: 19px  ;
+
+}
+
+
+.faq-2{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    padding-top: 60px;
+}
+
+
+.faq-answer{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20.5px;
+    align-items: center;
+    
+
+}
+.faq-3{
+    padding-top: 60px;
+    align-items: center;
+}
+
+.faq-4{
+    padding-top: 60px;
+    align-items: center;
+}
+
+.faq-5{
+    padding-top: 60px;
+    align-items: center;
+}

@@ -3,15 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #c7ffbe;
+}
 nav{
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+    align-items: center;
+    background-color: white;
+    margin: 2%;
+    border-radius: 20px;
+    
 
+}
+.logo-container{
+    padding: 20px;
 }
 .website-name{
     color: cornflowerblue;
-    font-size: 60px;
+    font-size: 40px;
     padding-left: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 10px;
@@ -31,29 +42,43 @@ nav{
 .menu ul li{
     padding-left: 50px;
     list-style-type: none;
-    padding-top: 40px;
-    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: cornflowerblue;
   
 }
 .menu ul li a{
     text-decoration: none;
+    color: rgb(110, 114, 114);
+    font-size: 20px;
+}
+                                                                                               
+#active-page{
+    color: cornflowerblue;
+}
+.profile-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
+.profile-container h1{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
 
 .about-me-heading{
     color: cornflowerblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* change font size that fits the web page */
+    font-size:  70px;
     /* Add margin bottom to give some space between heading and paragraph */
 }
 
 .answering-your-rileybot-questions{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 28px;
+   font-size: 20px;
    padding-left: 19.8px;
    color: cornflowerblue;
 
@@ -65,13 +90,14 @@ nav{
 .about-me-container{
 
     width: 80%;
-    margin: 5% auto;
+    margin: 10% auto;
     display: flex;
     align-items: center;
     /* update background color as per your design */
-    background-color: rgb(157, 240, 240);
+    background-color: white;
     border-radius: 20px;
     padding: 5% 0;
+
 }
 
 .about-me-left{
@@ -82,13 +108,46 @@ nav{
     line-height: 30px;
     color: cornflowerblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .profile-image{
     margin: 0 auto;
+    
+}
+.profile-image img{
+    border-radius: 20px;
 }
 
 .riley-bot-image{
     padding-top: 60px;
     display: flex;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
