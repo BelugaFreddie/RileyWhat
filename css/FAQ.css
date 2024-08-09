@@ -3,12 +3,46 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* arrange page-heading in the centre */
 
+.faq-container{
+    width: 40%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.page-heading{
+    text-align: center;
+
+}
+
+/* add radius in the faq class
+    add appropriate padding to make it look better
+    use appropriate color for the text
+    bring FAQ heading at the center of the container
+    add 2 more question  
+*/
+
+.faq-dark{
+    background-color: #c7ffbe;
+    border-radius: 10px;
+}
+
+.faq-light{
+    background-color: #bdd4b9;
+    border-radius: 10px;
+}
 .faq{
-    color: cornflowerblue;
+    color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
-    padding-top: 30px;
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 15px;
 }
 
 
@@ -17,37 +51,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
     font-size: 19px  ;
+    text-align: center;
 
 }
 
 
-.faq-2{
-    color: cornflowerblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
-    padding-top: 60px;
-}
 
 
-.faq-answer{
-    color: cornflowerblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20.5px;
-    align-items: center;
-    
-
-}
-.faq-3{
-    padding-top: 60px;
-    align-items: center;
-}
-
-.faq-4{
-    padding-top: 60px;
-    align-items: center;
-}
-
-.faq-5{
-    padding-top: 60px;
-    align-items: center;
-}

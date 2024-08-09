@@ -87,10 +87,9 @@ nav{
 
 
 
-.about-me-container{
-
+#about-me-container{
     width: 80%;
-    margin: 10% auto;
+    margin: 10% auto 5%;
     display: flex;
     align-items: center;
     /* update background color as per your design */
