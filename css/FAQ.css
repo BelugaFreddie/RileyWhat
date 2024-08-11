@@ -3,11 +3,16 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+.faq-bot-container{
+
+    display: flex;
+    justify-content: space-evenly;
+}
 /* arrange page-heading in the centre */
 
 .faq-container{
     width: 40%;
-    margin: 0 auto;
     background-color: whitesmoke;
     padding: 30px;
     border-radius: 25px;
@@ -53,6 +58,27 @@
     font-size: 19px  ;
     text-align: center;
 
+}
+
+.chat-container{
+    padding: 30px;
+    background-color: whitesmoke;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.chat-container h1, .chat-container #question{
+    margin-bottom: 20px;
+}
+.chat-box{
+    padding: 10px;
+    background-color: #c7ffbe;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
 }
 
 
