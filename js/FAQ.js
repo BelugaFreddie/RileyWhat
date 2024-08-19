@@ -8,7 +8,8 @@ const faq={
     "what subjects does rileybot cover": "RileyBot covers every subject  but it is still developing its maths skills.",
 }
 function sendMessage(){
-    const question = document.getElementById("question").value.toLowerCase();
+    const questionInput = document.getElementById("question");
+    const question = questionInput.value.toLowerCase();
     const responseElement = document.getElementById('response');
     suggestionsElement.style.display = "block";
     
@@ -22,10 +23,10 @@ function sendMessage(){
         const response = "Sorry, I don't have information on that. Did you mean:"
         responseElement.innerText = response;
         const suggestionDiv = document.getElementsByClassName('suggestion');
-        suggestionDiv.innerHTML = "";
-        suggestQuestions(question);
-
-    }    
+        suggestionsElement.innerHTML = "";        
+    }   
+    questionInput.innerHTML = "";
+    questionInput.focus(); 
 }
 
 function suggestQuestions(input){
