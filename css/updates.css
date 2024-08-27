@@ -31,3 +31,16 @@
     display: flex;
 }
 
+.updates-heading-container{
+    display: flex;
+    justify-content: space-around;
+}
+.older-updates button{
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.older-updates button a{
+    font-size: 20px;
+    text-decoration: none;
+}

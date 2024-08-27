@@ -1,4 +1,29 @@
 .page-heading{
     color: cornflowerblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.cool-c-pic{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+
+}
+
+.cool-c-writing{
+    display: flex;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+.perspective-video{
+    justify-content: space-between;
+    background-color: whitesmoke;
+    margin: 40px;
+    width: 40%;
+    justify-content: center;
+    border-radius: 15px;
+    display: inline-flex;
+    
 }

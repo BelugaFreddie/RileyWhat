@@ -23,7 +23,8 @@ function sendMessage(){
         const response = "Sorry, I don't have information on that. Did you mean:"
         responseElement.innerText = response;
         const suggestionDiv = document.getElementsByClassName('suggestion');
-        suggestionsElement.innerHTML = "";        
+        suggestionsElement.innerHTML = ""; 
+        suggestQuestions(question);       
     }   
     questionInput.innerHTML = "";
     questionInput.focus(); 
@@ -32,7 +33,11 @@ function sendMessage(){
 function suggestQuestions(input){
     
     Object.keys(faq).forEach(question =>{
+        console.log("Checking question: ", question);
+        
         if (question.includes(input)){
+            console.log("Quetion found with input ", input, "is", question);
+            
             const suggestionDiv = document.createElement('div');
             suggestionDiv.innerText = question;
             suggestionDiv.className = 'suggestion';

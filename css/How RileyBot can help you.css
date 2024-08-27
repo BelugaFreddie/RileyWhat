@@ -1,5 +1,23 @@
 .page-heading{
     color: cornflowerblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;}
+
+
+.spelling-heading{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 40px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 40%;
+    margin: 40px;
+    
+
+
+}
+
+.vocabulary-heading{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
