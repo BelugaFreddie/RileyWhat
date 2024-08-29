@@ -4,26 +4,27 @@
     text-align: center;
 }
 
-.cool-c-pic{
+.media-header{
     display: flex;
+}
+.cool-c-pic{
     padding-left: 20px;
-    align-items: center;
 
 }
 
 .cool-c-writing{
-    display: flex;
-    padding-left: 30px;
+   
     font-size: 40px;
 }
 
 .perspective-video{
-    justify-content: space-between;
+    align-items: center;
     background-color: whitesmoke;
     margin: 40px;
-    width: 40%;
+    width: 70%;
     justify-content: center;
     border-radius: 15px;
-    display: inline-flex;
+    
+    
     
 }

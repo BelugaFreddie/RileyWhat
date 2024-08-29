@@ -1,23 +1,38 @@
 .page-heading{
     color: cornflowerblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 40px;}
-
-
-.spelling-heading{
-    color: cornflowerblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 40px;
-    background-color: whitesmoke;
+    text-align: center;
+}
+
+
+
+.imfo-dark{
+    background-color: #c7ffbe;
     border-radius: 10px;
-    width: 40%;
-    margin: 40px;
-    
+    padding: 10px;
 
 
 }
 
-.vocabulary-heading{
-    color: cornflowerblue;
+.imfo-light{
+    background-color: #bdd4b9;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+    
+    
+
+
+.imformation-container{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornflowerblue;
+    width: 55%;
+    margin: 40px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+
+
 }
