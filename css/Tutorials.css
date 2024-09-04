@@ -1,7 +1,12 @@
-.tutorials-page-heading{
+.videos-heading{
     color: cornflowerblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+
+.tutorials-page-heading{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .rileybot-video{
@@ -17,4 +22,44 @@
     font-size: 15px;
     border-radius: 10px;
     background-color: whitesmoke  ;
+}
+
+.row-1-container{
+    display: flex;
+
+}
+
+.row-2-container{
+    display: flex;
+    
+
+}
+
+.tutorial-videos-container{
+    background-color: whitesmoke;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 15px;
+   
+
+}
+
+.video-10-mp4-ogg{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.video-14-mp4-ogg{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.video-13-mp4-ogg{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.video-11-mp4-ogg{
+    margin: 0 auto;
+    border-radius: 10px;
 }

@@ -8,6 +8,8 @@
 .whats-new{
     color: cornflowerblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    text-align: center;
 }
 
 .whats-new-paragraph{
@@ -21,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
+    width: 90%;
     
     
 }
@@ -33,14 +36,6 @@
 
 .updates-heading-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-.older-updates button{
-    background-color: whitesmoke;
-    padding: 20px 30px;
-    border-radius: 10px;
-}
-.older-updates button a{
-    font-size: 20px;
-    text-decoration: none;
-}
+
