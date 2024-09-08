@@ -10,6 +10,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     text-align: center;
+    margin: 10px auto;
 }
 
 .whats-new-paragraph{
@@ -20,14 +21,26 @@
     margin: 10% auto;
     font-size: 20px;
     padding: 30px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;   
+}
+.whats-new-text{
     display: flex;
-    width: 90%;
-    
-    
+    flex-direction: column;
 }
 
+.whats-new-update{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.whats-new-update p{
+    text-align: justify;
+    margin-left: 20px;
+}
 
 .updates-page-image{
     border-radius: 20px;
