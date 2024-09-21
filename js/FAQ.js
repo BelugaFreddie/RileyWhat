@@ -1,6 +1,6 @@
 const suggestionsElement = document.getElementById('suggestions');
 const faq={
-    "What is Rileybot?": "RileyBot is an AI-powered chatbot designed specially for k-12 education. It helps students by guiding them through learning, encouraging and providing age-appropriate responses.",
+    "what is rileybot?": "RileyBot is an AI-powered chatbot designed specially for k-12 education. It helps students by guiding them through learning, encouraging and providing age-appropriate responses.",
     "how does rileybot work?": "RileyBot is an AI so people will have to teach it to be and answer like a human.",
     "can i cheat using rileybot?": "No, RileyBot is equipped with smart technology so it will not answer and remind you that you shouldn't do that.",
     "does rileybot give you feedback?": "Yes, if you ask RileyBot for some feedback it will give you an age appropriate piece of feedback.",
